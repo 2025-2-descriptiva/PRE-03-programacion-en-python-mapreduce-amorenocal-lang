@@ -100,6 +100,3 @@ def run_experiment(n):
     hadoop(input_dir, output_dir, mapper, reducer)
     end_time = time.time()
     print(f"Tiempo de ejecución: {end_time - start_time:.2f} segundos")
-
-
-run_experiment(10000)
